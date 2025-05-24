@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background-color: #f8f9fa;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .project-card {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <section>
+    <div style="background-image: url('images/mechanical_engineers.webp'); background-size: cover; background-position: center; opacity: 0.5; position: absolute; top: 0; left: 0; width: 100%; height: 50%; z-index: 0;"></div>
+   </section>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+   
+  <section class="hero">
+    <section class="hero" style="position: relative; height: 30vh; ">
+      <div style="position: relative; z-index: 1;  text-align: center; padding-top: 0;">
+    <div><h1 style = "color:#331a00 ;">Hello, I'm Nibiya Binu</h1>
+    <p style = "color:#331a00 ;">Mechanical Engineer with a focus on embedded systems, automation, and robotics </p></div></div>
+    <hr style="border: 1px solid #331a00; width: 100%; margin-left: 0;">
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container py-5">
+    <h2 style="color: #331a00;">About Me</h2>
+    <p>
+      Aspiring mechanical engineer with hands-on experience in Arduino-based and mechanical projects, web design, and 3D modeling.
+    </p>
+  </section>
+  
+
+  <!-- Projects Section -->
+  <section id="projects" class="container py-5">
+    <h2>Projects</h2>
+    <div>
+      <hr style="border: 1px solid #331a00; width: 100%; margin-left: 0;">
+      <p style="text-align: left; font-size: larger; color: #331a00; font-weight: bold; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Github Projects</p>
+      <hr style="border: 1px solid #331a00; width: 100%; margin-left: 0;">
+      <p><a href="https://github.com/N-biyaa/finalProject" style="color: #331a00;">IS 117 - To-Do list</a></p>
+      <p><a href="https://github.com/N-biyaa/IT202-nb529-Project-finalss" style="color: #331a00;">IT 202 project</a></p>
+    </div>
+    <div> <hr style="border: 1px solid #331a00; width: 100%; margin-left: 0;">
+      <p style="text-align: left; font-size: larger; color: #331a00; font-weight: bold; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Engineering Projects</p>
+      <hr style="border: 1px solid #331a00; width: 100%; margin-left: 0;"></div>
+    <div class="row">
+      <div class="col-md-4 project-card">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Smart Package Lockbox</h5>
+            <a ><img src="images\package protection.JPG" style="width: 70%; height: 90%;"></img></a>
+            <p class="card-text">Delivery box secured with a PIN keypad and servo lock.</p>
+            <p class="card-text">Hardware Hackathon smart technology project </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 project-card">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Trumpet/Basketball Models</h5>
+            <a ><img src="images\models.PNG" style="width: 100%; height: 90%;"></img></a>
+            <p class="card-text">3d models created on SOLIDWORKS</p>
+            <p class="card-text">FED 101 Final project</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 project-card">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Trumpet Attachment</h5>
+            <a><img src="images\palm.JPG" style="width: 100%; height: 90%;"></img></a>
+            <p class="card-text">3D printed trumpet assitive device atathcment for disabled children to use when playing the trumpet.</p>
+            <p class="card-text">FED 101 Final project</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 project-card">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Basketball Attachment</h5>
+            <a ><video src="images\78E453E4-0479-428C-A8EA-B83EFB832C43.MP4" controls style="width: 100%; height: 90%;"></video></a>
+            <p class="card-text">3d models created on SOLIDWORKS</p>
+            <p class="card-text">FED 101 Final project</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 project-card">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Luggage Tag</h5>
+            <a ><img src="images\luggage tag.JPG" style="width: 90%; height: 70%;"></img></a>
+            <p class="card-text">3d printed luggage tag</p>
+            <p class="card-text">FED 101 class project</p>
+          </div>
+        </div>
+      </div>
+      <!-- Add more project cards here -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container py-5">
+    <h2>Contact</h2>
+    <p>Email: Nb529@njit.edu</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/nibiya-binu-422963266/">linkedin.com/in/yourprofile</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-3">
+    <small>&copy; 2025 Nibiya Binu. All rights reserved.</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
